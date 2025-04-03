@@ -24,6 +24,28 @@ function search_fact() {
     }
 
 ```
+this wasn't working, so i did this
+
+
+
+```diff
+function search_fact() {
+-    let input = document.getElementById('searchBar').value
++   let input = document.getElementById('searchBar').value
+    input = input.toLowerCase();
+    let x = document.getElementsByClassName('card-body');
+
+    for (i = 0; i < x.length; i++) {
+        if (!x[i].innerHTML.toLowerCase().includes(input)) {
+            x[i].style.display = "none";
+        }
+        else {
+            x[i].style.display = "list-item";
+        }
+    }
+
+```
+
 
 <details>
   <summary>
