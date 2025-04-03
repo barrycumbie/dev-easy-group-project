@@ -26,6 +26,7 @@ function search_fact() {
 ```
 this wasn't working, so i did this
 
+the `html` consumes it here: https://github.com/barrycumbie/dev-easy-group-project/blob/d27724a6feddeffc579209bc49d8e247f663da02/index.html#L19-L26
 
 
 ```diff
