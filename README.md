@@ -9,9 +9,9 @@ I stole this from ...
 
 <details>
   <summary>
-    About this project
+    ## About this project
   </summary>
-  This was a class project to ... collab ..  data ... 
+  - This was a class project to ... collab ..  data ... 
 </details>
 
 Easy group 3 working on a fact for all students in the class
