@@ -6,6 +6,24 @@ I stole this from ...
 
 <a href="" target="">github</a> 
 
+### here a cool :cool: code example
+
+```javascript
+function search_fact() {
+    let input = document.getElementById('searchBar').value
+    input = input.toLowerCase();
+    let x = document.getElementsByClassName('card-body');
+
+    for (i = 0; i < x.length; i++) {
+        if (!x[i].innerHTML.toLowerCase().includes(input)) {
+            x[i].style.display = "none";
+        }
+        else {
+            x[i].style.display = "list-item";
+        }
+    }
+
+```
 
 <details>
   <summary>
